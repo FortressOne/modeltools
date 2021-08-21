@@ -1,0 +1,54 @@
+------------------------------------------------------------------------
+r5878 | havoc | 2005-12-29 16:40:23 -0800 (Thu, 29 Dec 2005) | 2 lines
+Changed paths:
+   M /trunk/modeltools
+   M /trunk/modeltools/.cvsignore
+
+fixed a typo
+
+------------------------------------------------------------------------
+r5877 | havoc | 2005-12-29 16:39:58 -0800 (Thu, 29 Dec 2005) | 2 lines
+Changed paths:
+   M /trunk/modeltools/makesp2.c
+
+changed example usage in makesp2
+
+------------------------------------------------------------------------
+r5876 | havoc | 2005-12-29 16:38:57 -0800 (Thu, 29 Dec 2005) | 2 lines
+Changed paths:
+   M /trunk/modeltools/makesp2.c
+
+fix bugs in makesp2
+
+------------------------------------------------------------------------
+r5875 | havoc | 2005-12-29 16:33:13 -0800 (Thu, 29 Dec 2005) | 2 lines
+Changed paths:
+   M /trunk/modeltools
+   A /trunk/modeltools/.cvsignore
+   M /trunk/modeltools/Makefile
+   A /trunk/modeltools/makesp2.c
+   M /trunk/modeltools/modeltool.c
+   A /trunk/modeltools/util.c
+   A /trunk/modeltools/util.h
+
+split out some common code from modeltool.c to util.c, added makesp2 utility, added a .cvsignore, restructured makefile
+
+------------------------------------------------------------------------
+r5862 | havoc | 2005-12-26 15:46:20 -0800 (Mon, 26 Dec 2005) | 2 lines
+Changed paths:
+   M /trunk/modeltools/Makefile
+
+changed CFLAGS handling a bit
+
+------------------------------------------------------------------------
+r5861 | havoc | 2005-12-26 15:18:26 -0800 (Mon, 26 Dec 2005) | 2 lines
+Changed paths:
+   A /trunk/modeltools
+   A /trunk/modeltools/Makefile
+   A /trunk/modeltools/file.c
+   A /trunk/modeltools/file.h
+   A /trunk/modeltools/modeltool.c
+
+added a tool for renaming textures inside md3 model files and also altering md3 model flags, other formats may be added later
+
+------------------------------------------------------------------------
